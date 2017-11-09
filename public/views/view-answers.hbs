@@ -1,0 +1,12 @@
+{{#each answers}}
+
+    <div class="row">
+        <h2>{{question}} -> Answered - {{answer}} /    Score: {{correct}}</h2>
+    </div>
+    {{#each answers}}
+        <div class="col-sm-2">
+            {{srno}} {{answer}}
+        </div>
+    {{/each}}
+    
+{{/each}}

@@ -1,0 +1,28 @@
+{
+  "name": "scapic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start":"node index.js"
+  },
+  "engine": {
+	"node":"9.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bell": "^8.8.0",
+    "handlebars": "^4.0.11",
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt": "^4.0.0",
+    "inert": "^4.2.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^2.2.33",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.3.1",
+    "save": "^2.3.1",
+    "vision": "^4.1.1"
+  }
+}
