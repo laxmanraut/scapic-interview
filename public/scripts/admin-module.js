@@ -60,28 +60,4 @@ app.controller('emailCtrl', function($scope, $http,$window) {
     
     }
 
-
-
-
-/*     $scope.viewAnswers = function(id){
-        var req = {
-            method: 'POST',
-            url: '/admin/sendmail',
-            data: { email: $scope.email }
-        }
-        $http(req).then(function(response){
-            console.log(response);
-            if(response.data.id == 'EXISTS'){
-                alert('Email already sent to this address');
-                $scope.email ="";
-            }
-            else{
-                alert('Email Sent Succesfully');
-                $scope.email ="";
-            }
-        }, function(response){
-            $scope.emailMsg = response.data;
-        });
-    } */
-
 });

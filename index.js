@@ -8,10 +8,9 @@ var MongoClient = require('mongodb').MongoClient;
 
 
 var server = new Hapi.Server();
-server.connection({port:8080});
+server.connection({port: process.env.PORT || 8000});
 server.register([
         {register:require('inert')},
-        {register:require('./plugins/mysql_proc')},
         {register:require('hapi-auth-jwt')},
         {register:require('bell')},
         {register:require('vision')}
@@ -53,7 +52,7 @@ server.register([
         strictHeader: false
     });
 
-    server.auth.strategy('google','bell',emaiCofig);
+    server.auth.strategy('google','bell',emaiCofig.config);
 
 
 

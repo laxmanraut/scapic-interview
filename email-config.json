@@ -1,8 +1,28 @@
 {
-    "provider": "google",
-    "password": "laxmanBbZJjyoXAdr8BUasdadZuiKKARWimKfrSmQ6fv8kZ7OFfc",
-    "isSecure": false,
-    "clientId": "357787507941-1o6tlg10047tf06jgu0dmfmi38h2f185.apps.googleusercontent.com",
-    "clientSecret": "4f58GmFj63lLrxz7HSDOYc5f",
-    "location": "http://localhost:8080"
+    "config":{
+        "provider": "google",
+        "password": "laxmanBbZJjyoXAdr8BUasdadZuiKKARWimKfrSmQ6fv8kZ7OFfc",
+        "isSecure": false,
+        "clientId": "357787507941-1o6tlg10047tf06jgu0dmfmi38h2f185.apps.googleusercontent.com",
+        "clientSecret": "4f58GmFj63lLrxz7HSDOYc5f",
+        "location": "http://localhost:8000"
+    },
+    "transporterOptions":{
+        "service": "gmail",
+        "auth": {
+            "user": "rautakshay136@gmail.com",
+            "pass": "Enterthehel"
+        },
+        "secure":false,
+        "port":25,
+        "tls": {
+            "rejectUnauthorized": false
+        }
+    },
+    "mailOptions": {
+        "from": "<no-reply@gmail.com>",
+        "to": "",
+        "subject": "Interview Invitation",
+        "html": ""
+    }
 }
