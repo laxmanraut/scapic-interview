@@ -5,7 +5,7 @@
         "isSecure": false,
         "clientId": "357787507941-1o6tlg10047tf06jgu0dmfmi38h2f185.apps.googleusercontent.com",
         "clientSecret": "4f58GmFj63lLrxz7HSDOYc5f",
-        "location": "http://localhost:8000"
+        "location": "https://laxman-demo.herokuapp.com"
     },
     "transporterOptions":{
         "service": "gmail",
