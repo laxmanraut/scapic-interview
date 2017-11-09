@@ -35,6 +35,11 @@ server.register([
     MongoClient.connect(dbconig.url, function(err, db) {
         if (err) throw err;
 
+        db.collection("users").drop();
+        db.collection("answers").drop();
+
+
+
         db.collection("questions").drop(function(err, res){
             db.collection("questions").insertMany(questions, function(err, res) {
                 if (err) throw err;
