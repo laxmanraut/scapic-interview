@@ -35,8 +35,8 @@ server.register([
     MongoClient.connect(dbconig.url, function(err, db) {
         if (err) throw err;
 
-        db.collection("users").drop();
-        db.collection("answers").drop();
+        //db.collection("users").drop();
+        //db.collection("answers").drop();
 
 
 
