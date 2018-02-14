@@ -20,6 +20,8 @@ server.register([
         throw err;
     }
 
+    console.log('laxman');
+
 
     server.views({
         engines: {
